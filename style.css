@@ -1,0 +1,150 @@
+* {
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+nav ul li {
+    font-size: 16px;
+
+}
+
+.login {
+    background-color: transparent;
+    border: 2px solid rgb(78, 117, 246);
+    color: rgb(78, 117, 246);
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+
+.signup {
+    background-color: rgb(78, 117, 246);
+    border: 2px solid rgb(78, 117, 246);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url("./WhatsApp\ Image\ 2026-04-20\ at\ 7.36.08\ PM.jpeg");
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+
+}
+
+.text {
+    width:30%;
+    
+}
+
+.word {
+    background-color: rgb(78, 117, 246, 0.2);
+    color: rgb(78, 117, 246);
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+#img-about{
+    margin-left: 100px;
+}
+
+#section-about{
+    display: flex;
+
+}
+
+#div-about{
+    width: 500px;
+    margin-top: 40px;
+}
+
+ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+i{
+    color: rgb(79, 117, 246);
+}
+#div-about-v{
+    display: flex;
+    gap: 20px;
+}
+
+#section-card{
+    background-color: rgb(248, 249, 250);
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.p-card{
+    color: rgb(65, 134, 219);
+    font-size: 18;
+}
+ 
+.div-card{
+    margin-top: 80px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+    
+}
+
+.div-card button{
+    background-color: rgb(65, 128, 210);
+    padding: 10px 15px;
+    border-color: #00000000;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.list{
+    padding-left: 20px;
+}
